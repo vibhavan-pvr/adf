@@ -24,7 +24,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "dest"
+			"table": "stores"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
