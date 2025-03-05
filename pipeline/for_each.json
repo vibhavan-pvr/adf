@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "for_each",
 	"properties": {
 		"activities": [
 			{
@@ -65,7 +65,10 @@
 									"referenceName": "AzureSqlTable1",
 									"type": "DatasetReference",
 									"parameters": {
-										"TableName": "item()"
+										"TableName": {
+											"value": "@item()",
+											"type": "Expression"
+										}
 									}
 								}
 							]
