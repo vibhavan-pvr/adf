@@ -107,10 +107,7 @@
 												"referenceName": "csv_to_sql_staging",
 												"type": "DatasetReference",
 												"parameters": {
-													"file_name": {
-														"value": "@activity('Get Metadata1').output.childItems",
-														"type": "Expression"
-													}
+													"file_name": "item().itemName"
 												}
 											}
 										],
@@ -119,10 +116,7 @@
 												"referenceName": "sql_dataset_csv",
 												"type": "DatasetReference",
 												"parameters": {
-													"tablename": {
-														"value": "@activity('Get Metadata1').output.childItems",
-														"type": "Expression"
-													}
+													"tablename": "item().itemName"
 												}
 											}
 										]
