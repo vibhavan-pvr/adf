@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -76,6 +77,12 @@
 										"typeProperties": {
 											"source": {
 												"type": "DelimitedTextSource",
+												"additionalColumns": [
+													{
+														"name": "file_name",
+														"value": "$$FILEPATH"
+													}
+												],
 												"storeSettings": {
 													"type": "AzureBlobStorageReadSettings",
 													"recursive": true,
