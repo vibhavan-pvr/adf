@@ -29,7 +29,7 @@
 		},
 		"sample_rest_service_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://reqres.in/api/"
+			"defaultValue": "https://jsonplaceholder.typicode.com/users"
 		},
 		"containerUri": {
 			"type": "string",
@@ -79,6 +79,26 @@
 				}
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "pvrdf_ArmTemplate_1",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2024-03-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_1.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					}
+				}
+			},
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'pvrdf_ArmTemplate_0')]"
+			]
 		}
 	]
 }

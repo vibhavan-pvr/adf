@@ -21,7 +21,7 @@
 			"value": "server"
 		},
 		"sample_rest_service_properties_typeProperties_url": {
-			"value": "https://reqres.in/api/"
+			"value": "https://jsonplaceholder.typicode.com/users"
 		}
 	}
 }
