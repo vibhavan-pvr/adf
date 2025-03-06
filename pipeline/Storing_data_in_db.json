@@ -116,7 +116,13 @@
 										"outputs": [
 											{
 												"referenceName": "sql_dataset_csv",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"tablename": {
+														"value": "@activity('Get Metadata1').output.childItems",
+														"type": "Expression"
+													}
+												}
 											}
 										]
 									}
@@ -169,7 +175,13 @@
 										"inputs": [
 											{
 												"referenceName": "extracting_excel_for_staging",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"filename": {
+														"value": "@activity('Get Metadata1').output.childItems",
+														"type": "Expression"
+													}
+												}
 											}
 										],
 										"outputs": [
