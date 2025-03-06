@@ -1,5 +1,5 @@
 {
-	"name": "pipeline2",
+	"name": "table_join",
 	"properties": {
 		"activities": [
 			{
