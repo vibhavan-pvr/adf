@@ -147,8 +147,11 @@
 												"type": "ExcelSource",
 												"additionalColumns": [
 													{
-														"name": "file_path",
-														"value": "$$FILEPATH"
+														"name": "updated at",
+														"value": {
+															"value": "@utcNow()",
+															"type": "Expression"
+														}
 													}
 												],
 												"storeSettings": {
