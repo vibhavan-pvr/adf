@@ -1,5 +1,5 @@
 {
-	"name": "creating_table",
+	"name": "prep_api_data_table",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
@@ -7,10 +7,6 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "prep",
-			"table": "api_data"
-		}
+		"schema": []
 	}
 }
