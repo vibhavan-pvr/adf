@@ -13,6 +13,7 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "Data",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {

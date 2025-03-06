@@ -56,7 +56,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@equals(activity('Get Metadata1').output.itemName,'Customer.xlsx')",
+									"value": "@equals(item(),'Customer.xlsx')",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
