@@ -48,6 +48,7 @@
 						"value": "@activity('Get Metadata1').output.childItems",
 						"type": "Expression"
 					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "checing_file_type",
@@ -56,7 +57,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@equals(item(),'Customer.xlsx')",
+									"value": "@equals(item().itemName,'Customer.xlsx')",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
@@ -178,7 +179,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"filename": {
-														"value": "@activity('Get Metadata1').output.childItems",
+														"value": "item().itemName",
 														"type": "Expression"
 													}
 												}
@@ -189,10 +190,7 @@
 												"referenceName": "AzureSqlTable6",
 												"type": "DatasetReference",
 												"parameters": {
-													"tablename": {
-														"value": "@activity('Get Metadata1').output.childItems",
-														"type": "Expression"
-													}
+													"tablename": "item().itemName"
 												}
 											}
 										]
