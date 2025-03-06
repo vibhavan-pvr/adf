@@ -79,8 +79,11 @@
 												"type": "DelimitedTextSource",
 												"additionalColumns": [
 													{
-														"name": "file_name",
-														"value": "$$FILEPATH"
+														"name": "updated at",
+														"value": {
+															"value": "@utcNow()",
+															"type": "Expression"
+														}
 													}
 												],
 												"storeSettings": {
