@@ -57,7 +57,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@equals(item().itemName,'Customer.xlsx')",
+									"value": "@equals(item().Name,'Customer.xlsx')",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
