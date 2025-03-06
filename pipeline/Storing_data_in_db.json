@@ -173,7 +173,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"filename": {
-														"value": "item().Name",
+														"value": "@item().Name",
 														"type": "Expression"
 													}
 												}
@@ -184,7 +184,7 @@
 												"referenceName": "AzureSqlTable6",
 												"type": "DatasetReference",
 												"parameters": {
-													"tablename": "item().Name"
+													"tablename": "@item().Name"
 												}
 											}
 										]
