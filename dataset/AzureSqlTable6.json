@@ -5,12 +5,20 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"tablename": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
 			"schema": "staging",
-			"table": "Country"
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
 		}
 	}
 }
