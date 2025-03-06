@@ -107,7 +107,7 @@
 												"referenceName": "csv_to_sql_staging",
 												"type": "DatasetReference",
 												"parameters": {
-													"file_name": "item().itemName"
+													"file_name": "item().Name"
 												}
 											}
 										],
@@ -116,7 +116,7 @@
 												"referenceName": "sql_dataset_csv",
 												"type": "DatasetReference",
 												"parameters": {
-													"tablename": "item().itemName"
+													"tablename": "item().Name"
 												}
 											}
 										]
