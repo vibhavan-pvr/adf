@@ -9,9 +9,9 @@
 			"database": "mini_project_db",
 			"encrypt": "optional",
 			"trustServerCertificate": true,
-			"authenticationType": "SQL",
-			"userName": "pvr",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzOGIwYWZkMy03OWQ5LTRlZDktYmE4Mi05NjFjZDExYzQ4MDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"authenticationType": "Windows",
+			"userName": "AzureAD\\PaidiVibhavanRao",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NzNlMGQ1MS01Yzk2LTRhM2QtYmQyMi05NjYzNmI3YzA4OWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sql-server-integration",
