@@ -8,10 +8,10 @@
 			"server": "JM-DKT-070",
 			"database": "mini_project_db",
 			"encrypt": "optional",
-			"trustServerCertificate": false,
+			"trustServerCertificate": true,
 			"authenticationType": "SQL",
-			"userName": "vibhavan",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwY2FkOWY3Mi1kMjU0LTQ2YjYtODc1OS0xMGNmMzkyNGJjNDgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "pvr",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkYjU1NWIzNS1lZTExLTRkZjUtODQxOC0zYTIyYzI1MzE1YzkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sql-server-integration",
