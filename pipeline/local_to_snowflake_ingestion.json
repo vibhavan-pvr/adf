@@ -106,7 +106,7 @@
 										"value": "'products'",
 										"activities": [
 											{
-												"name": "Script1",
+												"name": "create_products_table",
 												"type": "Script",
 												"dependsOn": [],
 												"policy": {
@@ -132,6 +132,34 @@
 												}
 											}
 										]
+									}
+								],
+								"defaultActivities": [
+									{
+										"name": "create_transactions_table",
+										"type": "Script",
+										"dependsOn": [],
+										"policy": {
+											"timeout": "0.12:00:00",
+											"retry": 0,
+											"retryIntervalInSeconds": 30,
+											"secureOutput": false,
+											"secureInput": false
+										},
+										"userProperties": [],
+										"linkedServiceName": {
+											"referenceName": "Snowflake1",
+											"type": "LinkedServiceReference"
+										},
+										"typeProperties": {
+											"scripts": [
+												{
+													"type": "Query",
+													"text": "CREATE OR ALTER TABLE RAW_TABLE.TRANSACTIONS(\n\tcustomer_id smallint NOT NULL,\n\tproduct_id nvarchar(50) NOT NULL,\n\tpayment_month date NOT NULL,\n\trevenue_type bit NOT NULL,\n\trevenue float NOT NULL,\n\tquantity tinyint NOT NULL,\n\tdimension_1 nvarchar(50) NOT NULL,\n\tdimension_2 nvarchar(50) NOT NULL,\n\tdimension_3 nvarchar(50) NOT NULL,\n\tdimension_4 nvarchar(50) NOT NULL,\n\tdimension_5 nvarchar(50) NOT NULL,\n\tdimension_6 nvarchar(50) NOT NULL,\n\tdimension_7 nvarchar(50) NOT NULL,\n\tdimension_8 nvarchar(50) NOT NULL,\n\tdimension_9 nvarchar(50) NOT NULL,\n\tdimension_10 nvarchar(50) NOT NULL,\n\tcompanies nvarchar(50) NOT NULL\n)"
+												}
+											],
+											"scriptBlockExecutionTimeout": "02:00:00"
+										}
 									}
 								]
 							}
