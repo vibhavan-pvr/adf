@@ -5,7 +5,8 @@
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"sasUri": "https://detraining198.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-13T21:23:57Z&st=2025-03-13T13:23:57Z&spr=https,http&sig=7j%2FWanTkQcpVAbnoOdTxnaWiIE2OLi9DAy%2Ff%2Fx%2FBQYQ%3D?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-13T21:23:57Z&st=2025-03-13T13:23:57Z&spr=https,http&sig=7j%2FWanTkQcpVAbnoOdTxnaWiIE2OLi9DAy%2Ff%2Fx%2FBQYQ%3D"
+			"sasUri": "https://detraining198.blob.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc2N0VGQTIzLUNCQzUtNDRDMy05MzI2LUUzNURBQTVEODVDRF9iOWQzZjEwZS00MGQ1LTQwMGQtYTQ1OS05OTkyYzRmNzZiYTgiDQp9"
 		}
 	}
 }
