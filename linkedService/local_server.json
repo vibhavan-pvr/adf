@@ -11,7 +11,7 @@
 			"trustServerCertificate": true,
 			"authenticationType": "Windows",
 			"userName": "AzureAD\\PaidiVibhavanRao",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NzNlMGQ1MS01Yzk2LTRhM2QtYmQyMi05NjYzNmI3YzA4OWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNzgzNGQ5Mi1hYzJiLTQ5ZmYtODBjMi0wY2QyOTQ1YzJkYjYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sql-server-integration",
