@@ -10,8 +10,8 @@
 			"encrypt": "optional",
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
-			"userName": "vibhavan",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZWZjMDZkYy03NDljLTQ4ZWUtOWEyNC1jMjM4OTZmNDNkMDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "pvr",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzOGIwYWZkMy03OWQ5LTRlZDktYmE4Mi05NjFjZDExYzQ4MDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sql-server-integration",
