@@ -1,0 +1,11 @@
+{
+	"name": "staging_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://detraining198.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-13T21:23:57Z&st=2025-03-13T13:23:57Z&spr=https,http&sig=7j%2FWanTkQcpVAbnoOdTxnaWiIE2OLi9DAy%2Ff%2Fx%2FBQYQ%3D?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-13T21:23:57Z&st=2025-03-13T13:23:57Z&spr=https,http&sig=7j%2FWanTkQcpVAbnoOdTxnaWiIE2OLi9DAy%2Ff%2Fx%2FBQYQ%3D"
+		}
+	}
+}
