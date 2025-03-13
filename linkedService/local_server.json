@@ -10,8 +10,8 @@
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "server",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3ZTQxNmYwNy1iMGI0LTRlMWUtODgxNy04ZWMwNWYzMWZhZmMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "AzureAD\\PaidiVibhavanRao",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNWUzZGYxZi02OTQyLTQ5ZDUtYWNlNy0xYjYzZDFiNzMyOWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sql-server-integration",
