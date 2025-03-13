@@ -82,7 +82,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "transactions"
+			"table": "customers"
 		}
 	}
 }
