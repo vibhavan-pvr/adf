@@ -11,6 +11,12 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"Snowflake1_password": {
+			"value": ""
+		},
+		"local_server_password": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "detraining198.database.windows.net"
 		},
@@ -20,8 +26,29 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "server"
 		},
+		"Snowflake1_properties_typeProperties_database": {
+			"value": "MINI_PROJECT"
+		},
+		"Snowflake1_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake1_properties_typeProperties_host": {
+			"value": "OQOQTJI-BW11039.snowflakecomputing.com"
+		},
+		"local_server_properties_typeProperties_server": {
+			"value": "JM-DKT-070"
+		},
+		"local_server_properties_typeProperties_database": {
+			"value": "mini_project_db"
+		},
+		"local_server_properties_typeProperties_userName": {
+			"value": "AzureAD\\PaidiVibhavanRao"
+		},
 		"sample_rest_service_properties_typeProperties_url": {
 			"value": "https://jsonplaceholder.typicode.com/users"
+		},
+		"staging_service_sasUri": {
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""

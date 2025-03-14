@@ -15,6 +15,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
 		},
+		"Snowflake1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'Snowflake1'"
+		},
+		"local_server_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'local_server'"
+		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "detraining198.database.windows.net"
@@ -27,9 +35,37 @@
 			"type": "string",
 			"defaultValue": "server"
 		},
+		"Snowflake1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "MINI_PROJECT"
+		},
+		"Snowflake1_properties_typeProperties_role": {
+			"type": "string",
+			"defaultValue": "ACCOUNTADMIN"
+		},
+		"Snowflake1_properties_typeProperties_host": {
+			"type": "string",
+			"defaultValue": "OQOQTJI-BW11039.snowflakecomputing.com"
+		},
+		"local_server_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "JM-DKT-070"
+		},
+		"local_server_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "mini_project_db"
+		},
+		"local_server_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "AzureAD\\PaidiVibhavanRao"
+		},
 		"sample_rest_service_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://jsonplaceholder.typicode.com/users"
+		},
+		"staging_service_sasUri": {
+			"type": "secureString",
+			"metadata": "Secure string for 'sasUri' of 'staging_service'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -64,6 +100,9 @@
 					"AzureSqlDatabase1_password": {
 						"value": "[parameters('AzureSqlDatabase1_password')]"
 					},
+					"Snowflake1_password": {
+						"value": "[parameters('Snowflake1_password')]"
+					},
 					"AzureSqlDatabase1_properties_typeProperties_server": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]"
 					},
@@ -73,8 +112,20 @@
 					"AzureSqlDatabase1_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
 					},
+					"Snowflake1_properties_typeProperties_database": {
+						"value": "[parameters('Snowflake1_properties_typeProperties_database')]"
+					},
+					"Snowflake1_properties_typeProperties_role": {
+						"value": "[parameters('Snowflake1_properties_typeProperties_role')]"
+					},
+					"Snowflake1_properties_typeProperties_host": {
+						"value": "[parameters('Snowflake1_properties_typeProperties_host')]"
+					},
 					"sample_rest_service_properties_typeProperties_url": {
 						"value": "[parameters('sample_rest_service_properties_typeProperties_url')]"
+					},
+					"staging_service_sasUri": {
+						"value": "[parameters('staging_service_sasUri')]"
 					}
 				}
 			},
@@ -93,6 +144,18 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"local_server_password": {
+						"value": "[parameters('local_server_password')]"
+					},
+					"local_server_properties_typeProperties_server": {
+						"value": "[parameters('local_server_properties_typeProperties_server')]"
+					},
+					"local_server_properties_typeProperties_database": {
+						"value": "[parameters('local_server_properties_typeProperties_database')]"
+					},
+					"local_server_properties_typeProperties_userName": {
+						"value": "[parameters('local_server_properties_typeProperties_userName')]"
 					}
 				}
 			},
