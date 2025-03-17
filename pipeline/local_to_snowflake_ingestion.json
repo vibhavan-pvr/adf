@@ -26,7 +26,7 @@
 								},
 								"cases": [
 									{
-										"value": "customers",
+										"value": "CUSTOMERS",
 										"activities": [
 											{
 												"name": "create_customer_table",
@@ -122,7 +122,7 @@
 										]
 									},
 									{
-										"value": "products",
+										"value": "PRODUCTS",
 										"activities": [
 											{
 												"name": "create_products_table",
@@ -238,7 +238,7 @@
 											"scripts": [
 												{
 													"type": "Query",
-													"text": "CREATE OR ALTER TABLE RAW_DATA.TRANSACTIONS(\n\tcustomer_id int NOT NULL,\n\tproduct_id nvarchar(50) NOT NULL,\n\tpayment_month date NOT NULL,\n\trevenue_type int NOT NULL,\n\trevenue float NOT NULL,\n\tquantity int NOT NULL,\n\tdimension_1 nvarchar(50) NOT NULL,\n\tdimension_2 nvarchar(50) NOT NULL,\n\tdimension_3 nvarchar(50) NOT NULL,\n\tdimension_4 nvarchar(50) NOT NULL,\n\tdimension_5 nvarchar(50) NOT NULL,\n\tdimension_6 nvarchar(50) NOT NULL,\n\tdimension_7 nvarchar(50) NOT NULL,\n\tdimension_8 nvarchar(50) NOT NULL,\n\tdimension_9 nvarchar(50) NOT NULL,\n\tdimension_10 nvarchar(50) NOT NULL,\n\tcompanies nvarchar(50) NOT NULL\n)"
+													"text": "CREATE OR ALTER TABLE RAW_DATA.TRANSACTIONS(\n\tcustomer_id int NOT NULL,\n\tproduct_id nvarchar(50) NOT NULL,\n\tpayment_month date NOT NULL,\n\trevenue_type BOOLEAN NOT NULL,\n\trevenue float NOT NULL,\n\tquantity int NOT NULL,\n\tdimension_1 nvarchar(50) NOT NULL,\n\tdimension_2 nvarchar(50) NOT NULL,\n\tdimension_3 nvarchar(50) NOT NULL,\n\tdimension_4 nvarchar(50) NOT NULL,\n\tdimension_5 nvarchar(50) NOT NULL,\n\tdimension_6 nvarchar(50) NOT NULL,\n\tdimension_7 nvarchar(50) NOT NULL,\n\tdimension_8 nvarchar(50) NOT NULL,\n\tdimension_9 nvarchar(50) NOT NULL,\n\tdimension_10 nvarchar(50) NOT NULL,\n\tcompanies nvarchar(50) NOT NULL\n)"
 												}
 											],
 											"scriptBlockExecutionTimeout": "02:00:00"
@@ -319,9 +319,9 @@
 			"files": {
 				"type": "Array",
 				"defaultValue": [
-					"customers",
-					"products",
-					"transactions"
+					"CUSTOMERS",
+					"PRODUCTS",
+					"TRANSACTIONS"
 				]
 			}
 		},
